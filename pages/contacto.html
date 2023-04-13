@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body class="body-contacto">
+    <header><p id="inicio"></p>
+        <nav>
+            <a href="../index.html">Inicio</a>
+            <a href="../pages/quienesSomos.html">Quienes Somos</a>
+            <a href="../pages/servicios.html">Servicios</a>
+            <a href="../pages/trabajaConNosotros.html">Trabaja con Nosotros</a>
+            <a href="../pages/contacto.html">Contacto</a>
+        </nav>
+        <div data-aos="fade-right">
+        <img src="../img/img/mesaroli2.png"></div><li class="list-items"><a href="https://wa.me/543364645916/?text=tu%20texto%20personalizado"target="_blank"><i class="fa-brands fa-whatsapp"></i></a> 
+        <div class="h1-contacto" data-aos="fade-left">
+        <h1><strong>Logística Mesaroli</strong></h1>
+        </div>
+
+        
+        <!-- <div class="icons"> 
+            <ul>
+                <li><a href="../pages/logísticaIntegral.html" class="fa-solid fa-warehouse"></i></a></li>
+                <li><a href="../pages/transporte.html" class="fa-solid fa-truck-front"></i></a></li>
+                <li><a href="../pages/almacenamiento.html" class="fa-solid fa-dolly"></i></a></li>
+                <li><a href="../pages/pickingYrepacking.html" class="fa-solid fa-boxes-packing"></i></a></li>
+                
+            </ul>
+        </div>-->
+    </header>
+
+    <div class="form2-animation"data-aos="fade-down"data-aos-easing="linear"data-aos-duration="1500">
+
+        <section class="form-contact-2">
+            <form action="" class="contact" onsubmit="return validarFormulario()">
+                <label for="nombres">Nombres</label>
+                <input type="text" name="nombres" id="nombres">
+                <label for="correo">Correo</label>
+                <input type="email" name="correo" id="correo" required>
+                <span id="email-error" style="display:none;color:red;">Ingresa una dirección de correo electrónico válida</span>
+                <label for="celular">Celular</label>
+                <input type="text" name="celular" id="celular">
+                <span id="celular-error" style="display: none; color: red;">Ingresa un número de celular válido</span>
+                <label for="mensaje">Mensaje</label>
+                <textarea name="mensaje" id="mensaje"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+            <p id="recibido">Gracias, <span id="nombre-recibido"></span> por contactarse, hemos recibido su mensaje. Le responderemos a la brevedad</p>
+        </section>
+        <script src="../script.js"></script>
+    </div>
+    <div class="irAInicio contacto-angles-up">
+        <p><a href="#inicio"><i class="fa-sharp fa-solid fa-angles-up"></i></a></p>
+        </div>
+
+
+
+
+ <footer class="footer-contacto">
+        <h3>Redes Sociales</h3> 
+          
+          <ul>
+            <li class="list-items"><a href="https://www.linkedin.com/company/mesaroli-logistica-spa/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+            
+            <li class="list-items"><a href="https://www.facebook.com/mesarolilogistica/"><i class="fa-brands fa-facebook"></i></a></li>
+            
+            <li class="list-items"><a href="https://twitter.com/TeamMesaroliUK/status/1625106899493421058"><i class="fa-brands fa-twitter"></i></a></li>
+            
+          </ul>
+        <br>
+        <br>
+        
+        2023 Logistica Mesaroli -
+        <br>
+        Todos los derechos reservados
+          
+        
+        
+    </footer>
+    
+
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
+		AOS.init({
+			duration: 1000,
+			once: true
+		});
+	</script>  
+<script src="https://kit.fontawesome.com/bf3d5cf39c.js" crossorigin="anonymous"></script>    
+</body>
+</html>
